@@ -1,0 +1,34 @@
+# Site settings
+title: lesonnnn
+description: "=)))"
+baseurl: "lesonitdn98.github.io" # for test: remove string '/space-jekyll-template' to ''
+url: "lesonnnn.me" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+
+# User settings
+username: lesonnnn
+user_title: lesonnnn
+email: lesonitdn98@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# projects in header index
+projects:
+  - name: fluany
+    url: https://github.com/fluany/fluany
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
